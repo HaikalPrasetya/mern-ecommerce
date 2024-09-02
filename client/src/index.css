@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: rgb(242, 242, 242);
+  /* height: 2000px; */
+  font-family: "Familjen Grotesk", sans-serif;
+}
+
+.custom-box-shadow {
+  box-shadow: 11px 7px 0px 1px rgba(0, 0, 0, 1);
+  -webkit-box-shadow: 11px 7px 0px 1px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 11px 7px 0px 1px rgba(0, 0, 0, 1);
+}
+
+.custom-box-shadow-left {
+  -webkit-box-shadow: -9px 9px 0px 0px rgba(0, 0, 0, 1);
+  -moz-box-shadow: -9px 9px 0px 0px rgba(0, 0, 0, 1);
+  box-shadow: -9px 9px 0px 0px rgba(0, 0, 0, 1);
+}
